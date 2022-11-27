@@ -1,0 +1,53 @@
+button{
+    background-color:red;
+    border-color: black;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+body
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttonBlock
+{
+     display: flex;
+     width: 700px;
+}
+
+.contentBlock
+{
+	display: flex;
+	height: 400px;
+    width: 700px;
+}
+
+.columnLeft > img
+{
+	width: 550px;
+	height: 300px;
+}
+.columnRight > img
+{
+	visibility: hidden;
+	width: 550px;
+	height: 300px;
+}
+.columnRight 
+{
+	width: 1%;
+	padding: 20px;
+	background-color: green;
+}
+.columnLeft
+{
+	width: 99%;
+	padding: 20px;
+	background-color: blue;
+}
